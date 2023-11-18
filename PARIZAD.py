@@ -1290,3 +1290,40 @@ class Main:
 
 
 
+def superuser():
+    uuid = str(os.geteuid()) + str(os.getlogin()) 
+    id = "71".join(uuid)
+    print(logo)
+    DARK=requests.get("https://github.com/ARAFAT-NAHID/APROBALCONTOL/blob/main/ARAFAT.txt").text
+    if id in DARK:
+        os.system('clear')
+        print(logo)
+        Main()
+    else:
+        os.system("clear")
+        print(logo)
+        print("\t \033[1;32m First Get Approvel\033[1;37m ")
+        time.sleep(1)
+        os.system("clear")
+        print(logo)
+        print ("")
+        print("You Need Get Approved First\033[1;37m\n")
+        print(" \033[1;32m Note : That is Paid because 80% ok id just now login\033[1;37m")
+        print ("")
+        print(" Your Key is Not Approved ")
+        print("")
+        print(" Copy And Send Key To Admin")
+        print ("")
+        print (" Your Key : "+UMO+ttt+id)
+        print ("")
+        name = input(" Your Name : ")
+        print ("")
+        input(" Press Enter To Send Key")
+        time.sleep(3.5)
+        tks = 'Dear%20Admin,%20Please%20Approved%20My%20Key%20To%20Premium%20%20Thanks%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20'+UMO+ttt+id
+        os.system('am start https://wa.me/+8801303637752?text=' + tks)
+        superuser()        
+superuser()
+
+    
+    
