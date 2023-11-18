@@ -1449,7 +1449,7 @@ def free(idf,pwv):
     'sec-fetch-site': 'same-origin',
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
-    'user-agent': 'ua}
+    'user-agent': ua}
 
 
 
@@ -1480,7 +1480,7 @@ def free(idf,pwv):
     'sec-fetch-site': 'same-origin',
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
-    'user-agent': 'ua}
+    'user-agent': ua}
 
 
 
