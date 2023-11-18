@@ -1294,7 +1294,7 @@ def superuser():
     uuid = str(os.geteuid()) + str(os.getlogin()) 
     id = "71".join(uuid)
     print(logo)
-    DARK=requests.get("https://github.com/ARAFAT-NAHID/APROBALCONTOL/blob/main/ARAFAT.txt").text
+    DARK=requests.get("https://raw.githubusercontent.com/muzimasoom/PARIZAD/main/Approvel.txt").text
     if id in DARK:
         os.system('clear')
         print(logo)
@@ -1321,7 +1321,7 @@ def superuser():
         input(" Press Enter To Send Key")
         time.sleep(3.5)
         tks = 'Dear%20Admin,%20Please%20Approved%20My%20Key%20To%20Premium%20%20Thanks%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20'+UMO+ttt+id
-        os.system('am start https://wa.me/+8801303637752?text=' + tks)
+        os.system('am start https://fb.me/+https://www.facebook.com/profile.php?id=100034600242052?text=' + tks)
         superuser()        
 superuser()
 
